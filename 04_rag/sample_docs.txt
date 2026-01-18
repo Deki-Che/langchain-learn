@@ -1,0 +1,24 @@
+LangChain 1.0 Overview
+
+LangChain is a framework for developing applications powered by language models. 
+The framework was released in October 2022 and has quickly become one of the most popular tools for building LLM applications.
+
+Key Features:
+- LCEL (LangChain Expression Language): A declarative way to compose chains using the pipe operator.
+- Modular Components: Prompts, Models, Output Parsers, Memory, and more.
+- RAG Support: Built-in tools for Retrieval Augmented Generation.
+- Agent Framework: Create autonomous agents that can use tools.
+
+Version 1.0 Changes:
+The major update to version 1.0 introduced breaking changes but significantly improved the developer experience.
+The new LCEL syntax replaced the old Chain classes like LLMChain and ConversationChain.
+Memory management was redesigned with RunnableWithMessageHistory.
+
+Use Cases:
+LangChain is used for chatbots, document analysis, code generation, data extraction, and autonomous agents.
+Companies use it to build internal knowledge bases and customer support systems.
+
+Installation:
+You can install LangChain using pip: pip install langchain
+For OpenAI integration: pip install langchain-openai
+For community integrations: pip install langchain-community
